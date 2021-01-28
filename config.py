@@ -2,8 +2,8 @@
 device_id = 'DHT11'
 
 # Select sensors to use 1 = use | 0 = skip
-dht11 = 1
-bmp180 = 0
+dht11 = 0
+bmp180 = 1
 mq135 = 0
 enviromental = 0
 gyroscope = 0
