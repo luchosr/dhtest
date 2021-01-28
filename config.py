@@ -35,7 +35,7 @@ device_id = 'BCM2835-00000000ec2a41ff-9000c1'
 # BMP180 : Temperature,Pressure,Altitude
 # MQ135 : Air quality sensor based on SnO2 conductivity measurement
 # TODO : include in the documentation the unit of measure for each indicator
-dth11 = 1
+dht11 = 1
 bmp180 = 0
 mq135 = 0
 
