@@ -1,20 +1,3 @@
-""" # Device name
-device_id = 'DHT11'
-
-# Select sensors to use 1 = use | 0 = skip
-dht11 = 1
-bmp180 = 1
-mq135 = 0
-enviromental = 0
-gyroscope = 0
-accelerometer = 0
-magnetometer = 0
-
-# Select relay interval
-relay = 30
-
-# Define endpoint
-endpoint = 'http://127.0.0.1:8080/sensor_data' """
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
@@ -31,7 +14,7 @@ device_id = 'BCM2835-00000000ec2a41ff-9000c1'
 
 # Parameters : Sensors
 # Select sensors to use 1 = use | 0 = skip
-# DTH11 : Temperature,Humidity
+# DHT11 : Temperature,Humidity
 # BMP180 : Temperature,Pressure,Altitude
 # MQ135 : Air quality sensor based on SnO2 conductivity measurement
 # TODO : include in the documentation the unit of measure for each indicator
